@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+     body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+    }
+    header {
+        background-color: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    nav {
+        background-color: #34495e;
+        display: flex;
+        justify-content: center;
+        padding: 0.5rem;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+    nav a:hover {
+        color: #f39c12;
+    }
+    p{
+      text-align: center;
+    }
+    .hero {
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    }
+    .content {
+        padding: 2rem;
+        text-align: center;
+    }
+    .content h2 {
+        color: #2c3e50;
+    }
+    .btn {
+        background-color: #f39c12;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .btn:hover {
+        background-color: #e67e22;
+    }
+    footer {
+        background-color: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+    /* Card & Timeline styles */
+    .timeline {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        padding: 40px 20px;
+        max-width: 1200px;
+        margin: auto;
+    }
+    .card {
+        background: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    }
+    .card h3 {
+        color: #2980b9;
+        margin-top: 0;
+    }
+    .card ul {
+        padding-left: 20px;
+        line-height: 1.6;
+        margin: 0;
+    }
+    .card ul li {
+        margin-bottom: 8px;
+    }
+    .card p {
+        line-height: 1.6;
+        margin: 0;
+    }
+  </style>
+</head>
+<body>
+   <header>
+    <h1>About Us</h1>
+    <p>Let us learn about the past</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About us</a>
+    <a href="gallery.html">History</a>
+    <a href="contact.html">Contact us</a>
+  </nav>
+
+  <div class="container">
+    <img src="https://via.placeholder.com/150" alt="" class="profile-pic">
+     <div style="text-align: center;">
+    <h2>Historical Timeline</h2>
+     </div>
+    <p>
+      Our website is dedicated to sharing important moments from history in an easy-to-understand and visually engaging way.
+      We focus on significant events in Rwanda and around the world, presenting them through timelines, short summaries, and
+      beautiful images. Whether you're a student, teacher, or history enthusiast, this platform is designed to help you
+      explore the past and learn from it.
+    </p>
+    <p>
+      We believe that history is not just about dates and facts, but about the people, cultures, and stories that shaped our
+      world. By preserving and sharing these stories, we hope to inspire curiosity, understanding, and respect for our shared
+      heritage.
+    </p>
+  </div>
+
+  <section class="timeline">
+    <div class="card">
+       <div style="text-align: center;">
+      <h3>Our Goal</h3>
+       </div>
+      <ul>
+        <li><strong>Educate</strong> – Provide accurate, well-presented information (e.g., Rwanda’s history, timelines, key figures).</li>
+        <li><strong>Preserve</strong> – Keep important historical and cultural content accessible for the future.</li>
+        <li><strong>Engage</strong> – Use design, images, and interactive elements so visitors stay interested.</li>
+        <li><strong>Connect</strong> – Allow people to reach us via the contact form or learn more through links.</li>
+      </ul>
+    </div>
+
+    <div style="text-align: center;">
+    <div class="card">
+      <div style="text-align: center;">
+        <h3>Our Mission</h3>
+      </div>
+      <p>
+        "To preserve and share the rich history and cultural heritage of Rwanda and the world,
+        educating and inspiring future generations through accessible, engaging, and well-researched content."
+      </p>
+    </div>
+
+    <div class="card">
+       <div style="text-align: center;">
+    <h3>Our vision</h3>
+       </div>
+    <p>
+      “Our vision is to create an informative, engaging, and accessible platform that educates visitors about [your topic, e.g., history, culture, services],
+       inspires curiosity, and provides a user-friendly experience that encourages learning, exploration, and connection.”
+    </p>
+    </div>
+  </section>
+
+  <footer>
+    &copy;2025 Historical Timeline. All rights reserved.
+  </footer>
+</body>
+</html>
